@@ -27,7 +27,7 @@ $json_data = json_decode($json, true);
     <meta charset="utf-8">
     <title>Uness Promo Offer </title>
     <meta name="description"
-        content="Upgrade your kitchen with the CookEX 4-in-1 Blender, the ultimate multitasking appliance that blends, grinds, juices, and processes your food with unmatched efficiency.">
+        content="Smart Kitchen Appliances for Faster Cooking, & Healthier Living">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/faviconex.png">
 
@@ -135,7 +135,7 @@ $json_data = json_decode($json, true);
                                     d="M30.413,4H5.157C3.421,4,2.016,5.751,2.016,7.891L2,31.239c0,2.14,1.421,3.891,3.157,3.891H30.413c1.736,0,3.157-1.751,3.157-3.891V7.891C33.57,5.751,32.149,4,30.413,4Zm0,7.783L17.785,21.511,5.157,11.783V7.891l12.628,9.728L30.413,7.891Z"
                                     transform="translate(-2 -4)" fill="currentColor"></path>
                             </svg>
-                            <a href="mailto:shop@shopextv.com">shop@shopextv.com</a>
+                            <a href="mailto:shop@shopextv.com">sales@Unesshub.com.ng</a>
                         </li>
                     </ul>
                     <div class="language__currency d-none d-lg-block">
@@ -177,7 +177,7 @@ $json_data = json_decode($json, true);
                         </a>
                     </div>
                     <div class="main__logo">
-                        <h1 class="main__logo--title"><a class="main__logo--link" href="https://shopextv.com/"><img
+                        <h1 class="main__logo--title"><a class="main__logo--link" href="unesshub.com.ng"><img
                                     class="main__logo--img" src="assets/img/logo/Shopex-Blue-Logo.png" alt="logo-img"
                                     style="height: 40px;"></a></h1>
                     </div>
@@ -221,7 +221,7 @@ $json_data = json_decode($json, true);
             <div class="offcanvas__inner">
                 <div class="offcanvas__logo">
                     <a class="offcanvas__logo_link" href="index.html">
-                        <img src="assets/img/logo/Shopex-Blue-Logo.png" alt="Shopex Logo" style="height: 89px;">
+                        <img src="assets/img/logo/unesslogo nobg.png" alt="Unesshub Logo" style="height: 89px;">
                     </a>
                     <button class="offcanvas__close--btn" data-offcanvas>close</button>
                 </div>
@@ -305,14 +305,14 @@ $json_data = json_decode($json, true);
                 <div class="row row-cols-md-2 row-cols-1  align-items-center">
                     <div class="col">
                         <div class="image__with--text__thumbnail">
-                            <img class="display-block" src="assets/img/product/unnamed (1).png"
+                            <img class="display-block" src="assets/img/product/huffmanairfryer.jpeg"
                                 alt="drone-image">
                         </div>
                     </div>
                     <div class="col">
                         <div class="image__with--text__content">
-                            <h2 class="image__with--text__title mb-18">The CookEX Airfryer</h2>
-                            <p class="image__with--text__desc mb-25">The CookEX Airfryer is an oven, dehydrator, toaster, grill, and rotisserie, all in one!</p>
+                            <h2 class="image__with--text__title mb-18">HUFFMANs Airfryer</h2>
+                            <p class="image__with--text__desc mb-25">The Huffman Airfryer is an oven, dehydrator, toaster, grill, and rotisserie, all in one!</p>
                             <div class="image__with--text__percent color-primary-2 mb-40">
                                 <ul>
                                     <li class="image__with--text__percent--list mb-25">
@@ -336,7 +336,7 @@ $json_data = json_decode($json, true);
                             <div class="image__with--text__content--footer d-flex">
                                 <!-- <img class="display-block" src="assets/img/other/text-shape.webp" alt="text-shape"> -->
                                 <p class="image__with--text__desc mb-25">
-                                The CookEX Air Fryer oven uses high-intensity hot air to air fry, bake, and crisp your favorite fried foods with little to no oil. Try French fries, small chops, roasted bole or corn, fried fish, baked snacks, bread, and a lot more! It’s the perfect addition to your kitchen.
+                                The Huffmans AirFryer oven uses high-intensity hot air to air fry, bake, and crisp your favorite fried foods with little to no oil. Try French fries, small chops, roasted bole or corn, fried fish, baked snacks, bread, and a lot more! It’s the perfect addition to your kitchen.
                                 </p>
                             </div>
                         </div>
@@ -354,19 +354,19 @@ $json_data = json_decode($json, true);
                 <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 align-items-center">
                     <div class="col">
                         <div class="about__content">
-                            <h2 class="about__content--title mb-18">ShopEX TV is the Sole Authorised Distributor of The CookEX Airfryer Oven in Nigeria.
+                            <h2 class="about__content--title mb-18">Unesshub is the Authorised Distributor of The Huffmans Airfryer Oven in Nigeria.
 
-Enjoy Free Delivery within Nigeria!</h2>
+Payment On Delivery Abuja only!</h2>
                             <div class="about__content--step mb-25">
                                 <ul class="mb-20">
-                                    <li class="about__content--desc__list">Enjoy Free Delivery within Nigeria!</li>
-                                    <li class="about__content--desc__list">ORDER ORIGINAL ONLY FROM SHOPEX.</li>
+                                    <li class="about__content--desc__list">Payment On Delivery Abuja only!</li>
+                                    <li class="about__content--desc__list">ORDER ORIGINAL ONLY FROM UNESSHUB.</li>
                                 </ul>
-                                <p class="about__content--desc style2">ShopEX TV is the sole authorised distributor of
-                                    the CookEX brand in Nigeria. We are also the Number 1 Best Seller in Africa for the
-                                    The CookEX Airfryer . Order original only from ShopEX and enjoy FREE delivery to
-                                    your location of choice within Nigeria. You are guaranteed secure payment options,
-                                    dedicated after-sales support, and return (if the product has problems).</p>
+                                <p class="about__content--desc style2">Unesshub is the Authorised Distributor of The Huffmans Airfryer Oven in Nigeria. 
+                                    Payment On Delivery Abuja only! We are also the Number 1 Best Seller in Nigeria for the
+                                    The Huffmans Airfryer . Order original only from ShopEX and enjoy delivery to
+                                    your location of choice within Nigeria. You are guaranteed secure payment options &
+                                    dedicated after-sales support.</p>
                             </div>
 
                             <a class="about__content--btn primary__btn" href="#buy">Buy Now</a>
