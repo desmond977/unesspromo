@@ -118,7 +118,7 @@ var swiper = new Swiper(".hero__slider--activation", {
   speed: 500,
   spaceBetween: 30,
   autoplay: {
-    delay: 3000,
+    delay: 6000,
     disableOnInteraction: false,
   },
   pagination: {
@@ -930,3 +930,116 @@ const newsletterPopup = function () {
   }
 };
 newsletterPopup();
+
+document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.image__with--text__slider', {
+        loop: true,
+        autoplay: {
+            delay: 7000,
+            disableOnInteraction: false,
+        },
+        // pagination: {
+        //     el: '.swiper-pagination',
+        //     clickable: true,
+        // },
+    });
+});
+
+
+// image plus text swipper js info
+const products = [
+    {
+        title: "Huffman Air Fryer (12L)",
+        price: "₦279,950",
+        oldPrice: "₦300,000",
+        colors: ["Silver with Black"],
+        quantity: ["1", "2", "3", "4"],
+        info: [
+            
+            "1 Stainless Steel Baking Tray",
+            "1 Drip Tray",
+            "Instruction Manual"
+        ]
+    },
+    {
+        title: "Huffman Electric Oven",
+        price: "₦249,950",
+        oldPrice: "₦280,000",
+        colors: ["Black"],
+        quantity: ["1", "2", "3", "4"],
+        info: [
+            "Multi-function electric oven",
+            "Heat-resistant glass door",
+            "Baking tray included"
+        ]
+    },
+    {
+        title: "Huffman Electric Kettle",
+        price: "₦39,950",
+        oldPrice: "₦49,950",
+        colors: ["Silver"],
+        quantity: ["1", "2", "3", "4"],
+        info: [
+            "Fast boiling system",
+            "Auto shut-off safety",
+            "Stainless steel body"
+        ]
+    },
+    {
+        title: "Huffman Kitchen Combo",
+        price: "₦329,950",
+        oldPrice: "₦380,000",
+        colors: ["Silver & Black"],
+        quantity: ["1", "2", "3", "4"],
+        info: [
+            "Air Fryer + Oven + Kettle",
+            "Perfect kitchen bundle",
+            "1-year warranty"
+        ]
+    }
+];
+
+
+function updateProduct(index) {
+    const product = products[index];
+
+    // Title
+    document.getElementById("productTitle").innerText = product.title;
+
+    // Price
+    document.querySelector("#productPrice .current__price").innerText = product.price;
+    document.querySelector("#productPrice .old__price").innerText = product.oldPrice;
+
+    // Colors
+    const colorSelect = document.getElementById("colorSelect");
+    colorSelect.innerHTML = "";
+    product.colors.forEach(c => {
+        colorSelect.innerHTML += `<option value="${c}">${c}</option>`;
+    });
+
+    // Quantity
+    const quantityselect = document.getElementById("quantityselect");
+    quantityselect.innerHTML = "";
+    product.quantity.forEach(c => {
+        quantityselect.innerHTML += `<option value="${c}">${c}</option>`;
+    });
+
+    
+
+    // Product Info
+    const infoBox = document.getElementById("productInfo");
+    infoBox.innerHTML = `
+        <p class="product__details--info__meta--list"><strong>Product Info:</strong></p>
+        ${product.info.map(i => `<p class="product_info">${i}</p>`).join("")}
+    `;
+}
+
+// Initial load
+updateProduct(0);
+
+const productPreviewSwiper = document.querySelector('.product__media--preview')?.swiper;
+
+// Swiper hook
+productPreviewSwiper.on("slideChange", function () {
+    updateProduct(this.activeIndex);
+});

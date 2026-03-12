@@ -102,11 +102,11 @@
 
   --primary-color: #222222;
 
-  --secondary-color: #d72323;
+  --secondary-color: #ff9600;
 
   --yellow-color: #ffc107;
 
-  --text-gray-color: #4a4c59;
+  --text-gray-color: #006cff;
 
   --white-color: #ffffff;
 
@@ -120,7 +120,7 @@
 
   --dark-color: #242424;
 
-  --sky-color: #647589;
+  --sky-color: #006cff;
 
   --border-color: #e4e4e4;
 
@@ -297,6 +297,11 @@ iframe{
   height: 250px !important;
 
 }
+
+.hero__bg {
+        min-height: auto;
+        background-size: contain;  /* No zoom on mobile */
+    }
 
 }
 
@@ -9432,17 +9437,13 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .slider__section--bg4 {
 
-  background: url(../img/product/unnamed.png);
-
-  /*background: url(../img/slider/home1-slider-bg.webp);*/
-
-  /*background: url(https://i0.wp.com/shopextv.com/wp-content/uploads/2024/09/FIMI7076-scaled.webp);*/
+  /* background: url(../img/unessbg.png); */
 
   background-repeat: no-repeat;
 
   background-attachment: scroll;
 
-  background-position: center left;
+  background-position: center center;
 
   background-size: cover;
 
@@ -27226,3 +27227,60 @@ p.product_info {
     margin-bottom: 5px !important;
 
 }
+
+/* slider background */
+.hero__bg {
+    width: 100%;
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    aspect-ratio: 1200 / 700; 
+}
+
+/* DESKTOP: fill screen nicely */
+@media (min-width: 769px) {
+    .hero__bg {
+        background-size: cover;   /* fills, may crop slightly */
+    }
+}
+
+/* MOBILE: show full image (no zoom, no crop) */
+@media (max-width: 768px) {
+    .hero__bg {
+        background-size: cover; 
+        background-position: center top;
+        min-height: auto;
+        aspect-ratio: 1080 / 700; 
+    }
+}
+
+
+.image__with--bg {
+    min-height: 90vh;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.image__with--text__thumbnail img {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+    display: block;
+}
+
+.image__with--text__slider {
+    overflow: hidden;
+}
+
+/* Mobile spacing fix */
+@media (max-width: 768px) {
+    .image__with--text__content {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
