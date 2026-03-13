@@ -949,52 +949,62 @@ document.addEventListener('DOMContentLoaded', function () {
 // image plus text swipper js info
 const products = [
     {
-        title: "Huffman Air Fryer (12L)",
-        price: "₦279,950",
-        oldPrice: "₦300,000",
-        colors: ["Silver with Black"],
+        title: "Huffman Air Fryer (HM-789)",
+        price: "₦105,000",
+        oldPrice: "150,000",
+        colors: ["Black", "white"],
         quantity: ["1", "2", "3", "4"],
         info: [
             
-            "1 Stainless Steel Baking Tray",
-            "1 Drip Tray",
-            "Instruction Manual"
+            "Featuring a digital control panel",
+            "Adjustable temperature",
+            "2400W powerful heating",
+            "Air circulation for even cooking",
+            "Air fry, Roast, Grill, Reheat"
         ]
     },
     {
-        title: "Huffman Electric Oven",
-        price: "₦249,950",
-        oldPrice: "₦280,000",
-        colors: ["Black"],
+        title: "Huffman Microwave Oven (HM-761)",
+        price: "₦165,000",
+        oldPrice: "₦200,000",
+        colors: ["White"],
         quantity: ["1", "2", "3", "4"],
         info: [
-            "Multi-function electric oven",
+            "700W microwave power",
             "Heat-resistant glass door",
-            "Baking tray included"
+            "20-liter capacity",
+            "Bake, Reheat, Cook, Defrost",
+            "Manual control knobs"
         ]
     },
     {
-        title: "Huffman Electric Kettle",
-        price: "₦39,950",
-        oldPrice: "₦49,950",
-        colors: ["Silver"],
+        title: "Huffman Electric Kettle (HM-2565)",
+        price: "₦45,000",
+        oldPrice: "₦55,000",
+        colors: ["Red","white","black" ],
         quantity: ["1", "2", "3", "4"],
         info: [
-            "Fast boiling system",
-            "Auto shut-off safety",
-            "Stainless steel body"
+            "Large 2L capacity",
+            "Rapid boiling heating element",
+            "Boil-dry protection",
+            "360° cordless swivel base",
+            "Automatic shut-off safety system"
+
         ]
     },
     {
-        title: "Huffman Kitchen Combo",
-        price: "₦329,950",
-        oldPrice: "₦380,000",
-        colors: ["Silver & Black"],
+        title: "Huffman Electric Pressure Cooker(HM-716)",
+        price: "100,000",
+        oldPrice: "₦140,000",
+        colors: ["Silver and black", "Red and black"],
         quantity: ["1", "2", "3", "4"],
         info: [
-            "Air Fryer + Oven + Kettle",
-            "Perfect kitchen bundle",
-            "1-year warranty"
+            "Large capacity (6.5L)",
+            "Automatic pressure control",
+            "Multi-function cooking modes",
+            "Automatic pressure control",
+            "Fast cooking for rice, beans, soups, meat, and stews"
+            
         ]
     }
 ];

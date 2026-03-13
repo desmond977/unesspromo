@@ -1,22 +1,3 @@
-<?php
-session_start();
-// remove all session variables
-// unset($_SESSION['tracking']);
-// if ((isset($_GET['ptrackinf']) && !isset($_SESSION['tracking'])) || ($_GET['ptrackinf'] != $_SESSION['tracking'])) {
-//     $_SESSION['valid'] = true;
-//     $_SESSION['timeout'] = time();
-//     $_SESSION['tracking'] = $_GET['ptrackinf'];
-// }
-
-// $referral = (isset($_GET['ptrackinf']) || isset($_SESSION['tracking'])) ? $_SESSION['tracking'] : "";
-
-// Read the JSON file containing list of Affiliators
-$json = file_get_contents('names.json');
-
-// Decode the JSON file
-$json_data = json_decode($json, true);
-
-?>
 <!doctype html>
 <html lang="en">
 
@@ -127,7 +108,7 @@ $json_data = json_decode($json, true);
                                     fill="currentColor" stroke="currentColor" stroke-miterlimit="10"
                                     stroke-width="32" />
                             </svg>
-                            <a href="tel:02096233948">02096233948</a>
+                            <a href="tel:08104889570">08104889570</a>
                         </li>
                         <li class="header__contact--info__list text-white">
                             <svg class="header__contact--info__icon" xmlns="http://www.w3.org/2000/svg" width="20.57"
@@ -136,7 +117,7 @@ $json_data = json_decode($json, true);
                                     d="M30.413,4H5.157C3.421,4,2.016,5.751,2.016,7.891L2,31.239c0,2.14,1.421,3.891,3.157,3.891H30.413c1.736,0,3.157-1.751,3.157-3.891V7.891C33.57,5.751,32.149,4,30.413,4Zm0,7.783L17.785,21.511,5.157,11.783V7.891l12.628,9.728L30.413,7.891Z"
                                     transform="translate(-2 -4)" fill="currentColor"></path>
                             </svg>
-                            <a href="mailto:shop@shopextv.com">sales@Unesshub.com.ng</a>
+                            <a href="mailto:sales@Unesshub.com.ng">sales@Unesshub.com.ng</a>
                         </li>
                     </ul>
                     <div class="language__currency d-none d-lg-block">
@@ -308,17 +289,18 @@ $json_data = json_decode($json, true);
                                     </div>
                                 </div>
                                 <div class="col">
-                                <p  style="color: black;">CHOOSE 1 Or MANY OUR 4 HOT SELLING <br>PRODUCTS AT DISCOUNT PRICE!!</p>
+
                                     <div class="image__with--text__content">
                                         <h2 class="image__with--text__title mb-18" style="color: #ff9600;">
-                                            HUFFMANs Airfryer
+                                            Huffmans HM-789 Air Fryer
                                         </h2>
                                         <p class="image__with--text__desc mb-25">
-                                            An oven, dehydrator, toaster, grill, and rotisserie — all in one.
+                                            The Huffmans HM-789 Air Fryer is a powerful 2400W multifunctional kitchen appliance designed for fast and healthy cooking.
+                                            With its large capacity and rapid air circulation technology, it cooks food evenly and delivers crispy results using little to no oil.
                                         </p>
                                         <p class="image__with--text__desc">
-                                            Enjoy healthier meals using little to no oil. Perfect for fries,
-                                            fish, snacks, bread, corn, and more.
+                                            Perfect for preparing fries, chicken, fish, vegetables, snacks, and more
+                                            for the whole family with healthier, low-oil cooking.
                                         </p>
                                     </div>
                                 </div>
@@ -336,14 +318,15 @@ $json_data = json_decode($json, true);
                                 <div class="col">
                                     <div class="image__with--text__content">
                                         <h2 class="image__with--text__title mb-18" style="color: #ff9600;">
-                                            Microwave Oven
+                                            Huffmans HM-761 Microwave Oven
                                         </h2>
                                         <p class="image__with--text__desc mb-25">
-                                            High-intensity hot air circulation ensures fast and even cooking.
+                                            The Huffmans HM-761 Microwave Oven is a compact and reliable kitchen appliance designed for quick and convenient cooking.
+                                            With a 20-litre capacity and 700W power output, it provides efficient heating for everyday meals, snacks, and beverages.
                                         </p>
                                         <p class="image__with--text__desc">
-                                            Crispy outside, tender inside — without excess oil.
-                                        </p>
+                                            Its modern compact design fits perfectly in any kitchen space, making it ideal
+                                            for homes, offices, and small families. </p>
                                     </div>
                                 </div>
                             </div>
@@ -360,14 +343,42 @@ $json_data = json_decode($json, true);
                                 <div class="col">
                                     <div class="image__with--text__content" style="color: #ff9600;">
                                         <h2 class="image__with--text__title mb-18">
-                                            Durable & Stylish
+                                            HUFFMANs HM-2565 Electric Kettle
                                         </h2>
                                         <p class="image__with--text__desc mb-25">
-                                            Built with premium materials for long-lasting performance.
+                                            The HUFFMANs HM-2565 Electric Kettle is a powerful and convenient kitchen appliance designed for fast water boiling.
+                                            With its large capacity and high-performance heating element, it quickly prepares hot water for tea, coffee, noodles,
+                                            and other beverages in just a few minutes.
                                         </p>
                                         <p class="image__with--text__desc">
-                                            Designed to fit perfectly into modern kitchens.
+                                            Its cordless 360° swivel base and ergonomic handle provide easy pouring
+                                            and comfortable handling, making it ideal for homes, offices, and small gatherings. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--slide 4-->
+                        <div class="swiper-slide">
+                            <div class="row row-cols-md-2 row-cols-1 align-items-center">
+                                <div class="col">
+                                    <div class="image__with--text__thumbnail">
+                                        <img src="assets/img/huffman/huffman_multiplefood.png" alt="airfryer durability">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="image__with--text__content" style="color: #ff9600;">
+                                        <h2 class="image__with--text__title mb-18">
+                                            Huffmans HM-716 Electric Pressure Cooker
+                                        </h2>
+                                        <p class="image__with--text__desc mb-25">
+                                            The Huffmans HM-716 Electric Pressure Cooker is a smart multi-function kitchen appliance designed to make cooking faster,
+                                            easier, and more convenient. With its large cooking capacity and powerful heating system, it prepares delicious meals
+                                            in a fraction of the time compared to traditional cooking methods.
                                         </p>
+                                        <p class="image__with--text__desc">
+                                            Its durable inner pot, safety pressure lock system,
+                                            and easy-to-use control panel make it perfect for everyday family cooking while saving time and energy in the kitchen. </p>
                                     </div>
                                 </div>
                             </div>
@@ -401,9 +412,9 @@ $json_data = json_decode($json, true);
                                     <li class="about__content--desc__list">Payment On Delivery Abuja only!</li>
                                     <li class="about__content--desc__list">ORDER ORIGINAL ONLY FROM UNESSHUB.</li>
                                 </ul>
-                                <p class="about__content--desc style2">Unesshub is the Distributor of The Huffmans
-                                    Eletric kettle in Nigeria.
-                                    Payment On Delivery Abuja only! . Order original only from Unesshub and enjoy
+                                <p class="about__content--desc style2">Unesshub is A Distributor of The Huffmans
+                                    Home Appliances.
+                                    Same Day Delivery Abuja only! . Order original only from Unesshub and enjoy
                                     Quality products No story !! . You are guaranteed secure payment options &
                                     dedicated after-sales support.</p>
                             </div>
@@ -432,14 +443,13 @@ $json_data = json_decode($json, true);
         <!-- End newsletter section -->
 
         <!-- Start product details section -->
-        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+        <form action="" method="">
             <section>
                 <section class="product__details--section section--padding" id="buy" style="background: #eeeeee4a;">
                     <div class="container">
                         <div class="section__heading text-center mb-50">
-                            <h2 class="section__heading--maintitle text__secondary mb-10">Trending Now</h2>
-                            <p class="section__heading--desc">Unesshub is the Distributor of The Huffmans Eletric kettle
-                                in Nigeria.
+                            <h2 class="section__heading--maintitle text__secondary mb-10">4 HOT TELLING PROMO OFFER </h2>
+                            <p class="section__heading--desc">Best Kitchen Deals in Abuja Today,
                                 Payment On Delivery Abuja only! .</p>
                         </div>
                         <div class="product__details--inner">
@@ -615,40 +625,40 @@ $json_data = json_decode($json, true);
                                                     </div>
 
                                                     <div class="product__variant--list mb-15">
-                                                    
-                                                    <!-- <fieldset class="variant__input--fieldset"> -->
-                                              
-                                                    <legend class="product__variant--title mb-8">Quantity :
-                                                    <div class="checkout__input">
-                                                        <select name="quantity" id="quantityselect"></select>
 
+                                                        <!-- <fieldset class="variant__input--fieldset"> -->
+
+                                                        <legend class="product__variant--title mb-8">Quantity :
+                                                            <div class="checkout__input">
+                                                                <select name="quantity" id="quantityselect"></select>
+
+                                                            </div>
+
+                                                        </legend>
                                                     </div>
-                                               
-                                                 </legend>
+
+
+
+
+
+                                                    <p class="product__details--info__meta--list" style="color: #d72323">Please
+                                                        provide your delivery details in the form below.</p>
+                                                    <div class="product__variant--list mb-15">
+                                                        <div class="product__details--info__meta">
+
+                                                            <div id="productInfo"></div>
+
+                                                            <p class="product__details--info__meta--list" style=" color: #0a0707ff;">
+                                                                <strong>Vendor:</strong> <span>Unesshub</span>
+                                                            </p>
+
+
+
+                                                        </div>
+                                                    </div>
+
                                             </div>
 
-                                            
-
-
-
-                                            <p class="product__details--info__meta--list" style="color: #d72323">Please
-                                                provide your delivery details in the form below.</p>
-                                            <div class="product__variant--list mb-15">
-                                                <div class="product__details--info__meta">
-                                                    
-                                                <div id="productInfo"></div>
-
-                                                    <p class="product__details--info__meta--list" style=" color: #0a0707ff;">
-                                                        <strong>Vendor:</strong> <span>Unesshub</span>
-                                                    </p>
-                                                    
-                                                    
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        
         </form>
         </div>
         </div>
@@ -673,28 +683,16 @@ $json_data = json_decode($json, true);
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6 mb-20">
                                             <div class="checkout__input--list ">
-                                                <label class="checkout__input--label mb-5" for="input1">Fist Name <span
+                                                <label class="checkout__input--label mb-5" for="input1">Full Name <span
                                                         class="checkout__input--label__star">*</span></label>
                                                 <input class="checkout__input--field border-radius-5"
-                                                    placeholder="First name" id="fname" type="text" name="fname"
+                                                    placeholder="Full Name" id="fullname" type="text" name="fullname"
                                                     required>
-                                                <input class="checkout__input--field border-radius-5" id="referral"
-                                                    type="hidden" name="referral" value="<?= $referral; ?>">
-                                                <input class="checkout__input--field border-radius-5" id="price_600w"
-                                                    type="hidden" name="price_600w" value="54950">
-                                                <input class="checkout__input--field border-radius-5" id="price_900w"
-                                                    type="hidden" name="price_900w" value="54950">
+
+
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 mb-20">
-                                            <div class="checkout__input--list">
-                                                <label class="checkout__input--label mb-5" for="input2">Last Name <span
-                                                        class="checkout__input--label__star">*</span></label>
-                                                <input class="checkout__input--field border-radius-5"
-                                                    placeholder="Last name" id="lname" type="text" name="lname"
-                                                    required>
-                                            </div>
-                                        </div>
+
                                         <div class="col-lg-6 col-md-6 col-sm-6 mb-20">
                                             <div class="checkout__input--list ">
                                                 <label class="checkout__input--label mb-5" for="input1">Email Address
@@ -730,6 +728,42 @@ $json_data = json_decode($json, true);
                                             </div> -->
 
 
+                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-20">
+                                                <div class="checkout__input--list">
+
+                                                    <label class="checkout__input--label mb-5">Area Council (LGA)
+                                                        <span class="checkout__input--label__star">*</span></label>
+
+                                                    <select name="lga" id="lga" class="checkout__input--select__field border-radius-5" required>
+
+                                                        <option value="">Select Area Council</option>
+                                                        <option value="AMAC">Abuja Municipal Area Council (AMAC)</option>
+                                                        <option value="Bwari">Bwari</option>
+                                                        <option value="Gwagwalada">Gwagwalada</option>
+                                                        <option value="Kuje">Kuje</option>
+                                                        <option value="Kwali">Kwali</option>
+                                                        <option value="Abaji">Abaji</option>
+
+                                                    </select>
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-20">
+                                                <div class="checkout__input--list">
+                                                    <label class="checkout__input--label mb-5">State
+                                                        <span class="checkout__input--label__star">*</span></label>
+
+                                                    <select name="state" id="state" class="checkout__input--select__field border-radius-5" required>
+                                                        <option value="FCT" selected>Abuja (FCT)</option>
+                                                    </select>
+
+                                                </div>
+                                            </div>
+
+
+
                                             <div class="col-lg-12 mb-20">
                                                 <div class="checkout__input--list">
                                                     <label class="checkout__input--label mb-5"
@@ -741,69 +775,6 @@ $json_data = json_decode($json, true);
                                                             <option value="Nigeria">Nigeria</option>
                                                         </select>
                                                     </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-20">
-                                                <div class="checkout__input--list">
-                                                    <label class="checkout__input--label mb-5" for="input2">State <span
-                                                            class="checkout__input--label__star">*</span></label>
-
-                                                    <select onchange="toggleLGA(this);" name="state" id="state" title=""
-                                                        class="checkout__input--select__field border-radius-5" required>
-                                                        <option value="" selected="selected">- Select -</option>
-                                                        <option label="Abia" value="Abia">Abia</option>
-                                                        <option label="Adamawa" value="Adamawa">Adamawa</option>
-                                                        <option label="Akwa Ibom" value="AkwaIbom">Akwa Ibom</option>
-                                                        <option label="Anambra" value="Anambra">Anambra</option>
-                                                        <option label="Bauchi" value="Bauchi">Bauchi</option>
-                                                        <option label="Bayelsa" value="Bayelsa">Bayelsa</option>
-                                                        <option label="Benue" value="Benue">Benue</option>
-                                                        <option label="Borno" value="Borno">Borno</option>
-                                                        <option label="Cross River" value="CrossRiver">Cross River
-                                                        </option>
-                                                        <option label="Delta" value="Delta">Delta</option>
-                                                        <option label="Ebonyi" value="Ebonyi">Ebonyi</option>
-                                                        <option label="Edo" value="Edo">Edo</option>
-                                                        <option label="Ekiti" value="Ekiti">Ekiti</option>
-                                                        <option label="Enugu" value="Enugu">Enugu</option>
-                                                        <option label="Federal Capital Territory" value="FCT">Federal
-                                                            Capital Territory</option>
-                                                        <option label="Gombe" value="Gombe">Gombe</option>
-                                                        <option label="Imo" value="Imo">Imo</option>
-                                                        <option label="Jigawa" value="Jigawa">Jigawa</option>
-                                                        <option label="Kaduna" value="Kaduna">Kaduna</option>
-                                                        <option label="Kano" value="Kano">Kano</option>
-                                                        <option label="Katsina" value="Katsina">Katsina</option>
-                                                        <option label="Kebbi" value="Kebbi">Kebbi</option>
-                                                        <option label="Kogi" value="Kogi">Kogi</option>
-                                                        <option label="Kwara" value="Kwara">Kwara</option>
-                                                        <option label="Lagos" value="Lagos">Lagos</option>
-                                                        <option label="Nasarawa" value="Nasarawa">Nasarawa</option>
-                                                        <option label="Niger" value="Niger">Niger</option>
-                                                        <option label="Ogun" value="Ogun">Ogun</option>
-                                                        <option label="Ondo" value="Ondo">Ondo</option>
-                                                        <option label="Osun" value="Osun">Osun</option>
-                                                        <option label="Oyo" value="Oyo">Oyo</option>
-                                                        <option label="Plateau" value="Plateau">Plateau</option>
-                                                        <option label="Rivers" value="Rivers">Rivers</option>
-                                                        <option label="Sokoto" value="Sokoto">Sokoto</option>
-                                                        <option label="Taraba" value="Taraba">Taraba</option>
-                                                        <option label="Yobe" value="Yobe">Yobe</option>
-                                                        <option label="Zamfara" value="Zamfara">Zamfara</option>
-                                                    </select>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-20">
-                                                <div class="checkout__input--list">
-                                                    <label class="checkout__input--label mb-5" for="input2">L.G.A <span
-                                                            class="checkout__input--label__star">*</span></label>
-
-                                                    <select name="lga" id="lga"
-                                                        class="checkout__input--select__field border-radius-5  select-lga"
-                                                        required>
-                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
@@ -841,30 +812,19 @@ $json_data = json_decode($json, true);
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-7 col-sm-order">
                         <div class="deals__content">
-                            <h2 class="deals__content--title text-red mb-20" style="color: #f44336">Talk to Us:
+                            <h2 class="deals__content--title text-red mb-20" style="color: #f44336; padding-top: 50px">Talk to Us:
                                 08104889570</h2>
-                            <h2 class="deals__content--title text-white mb-20">SUness Hub is the Distributor of Orginal Kitchen Appliances in Nigeria.
-                                <br>Enjoy Payment on Delivery Abuja Only
+                            <h2 class="deals__content--title text-white mb-20">UNESSHUB is the
+                                Distributor of Authentic Huffmans Kitchen Appliances.
+                                <br>Enjoy Payment on Delivery within Abuja!
                                 <br>ORDER ORIGINAL ONLY FROM UNESSHUB.
                             </h2>
-                            <!--  <p class="deals__content--desc text-white mb-20">Beyond more stoic this along goodness this sed wow manatee mongos 
-                                flusterd impressive man farcrud opened inside owin punitively 
-                                wasteful telling spransac coldly spokeles.</p>    
-                            <div class="deals__content--price mb-28">
-                                <span class="old__price"> $30.00</span>
-                                <span class="price__divided"></span>
-                                <span class="current__price">$25.00</span>
-                            </div> -->
-                            <div class="deals__countdown d-flex mb-50" data-countdown="Apr 15, 2026 00:00:00"></div>
+
+                            <div class="deals__countdown d-flex mb-50" data-countdown="May 02 , 2026 00:00:00"></div>
                             <a class="deals__content--btn primary__btn" href="#buy">Buy Now</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-5">
-                        <div class="deals__thumbnail--style3 text-right">
-                            <img class="deals__thumbnail--style3__img" src="assets/img/product/download.png"
-                                alt="deals-thumb">
-                        </div>
-                    </div>
+                    <!--  -->
                 </div>
             </div>
         </section>
@@ -923,123 +883,3 @@ $json_data = json_decode($json, true);
 </body>
 
 </html>
-<?php
-// if (isset($_POST['buynow'])) {
-//     // var_dump($_POST);
-
-//     //URL
-//     // ob_flush();
-//     $url = "https://unilogix.online/shopex/service/v4_1/rest.php";
-//     $username = "affiliate";
-//     $password = "Pa22w0rd@123!aff";
-
-//     function call($method, $parameters, $url)
-//     {
-//         ob_start();
-//         $curl_request = curl_init();
-
-//         curl_setopt($curl_request, CURLOPT_URL, $url);
-//         curl_setopt($curl_request, CURLOPT_POST, 1);
-//         curl_setopt($curl_request, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
-//         curl_setopt($curl_request, CURLOPT_HEADER, 1);
-//         curl_setopt($curl_request, CURLOPT_SSL_VERIFYPEER, 0);
-//         curl_setopt($curl_request, CURLOPT_RETURNTRANSFER, 1);
-//         curl_setopt($curl_request, CURLOPT_FOLLOWLOCATION, 0);
-
-//         $jsonEncodedData = json_encode($parameters);
-
-//         $post = array(
-//             "method" => $method,
-//             "input_type" => "JSON",
-//             "response_type" => "JSON",
-//             "rest_data" => $jsonEncodedData
-//         );
-
-//         curl_setopt($curl_request, CURLOPT_POSTFIELDS, $post);
-//         $result = curl_exec($curl_request);
-
-//         curl_close($curl_request);
-//         $result = explode("\r\n\r\n", $result, 2);
-
-//         $response = json_decode($result[1]);
-//         ob_end_flush();
-
-//         return $response;
-//     }
-
-//     //login ----------------------------------------- 
-//     $login_parameters = array(
-//         "user_auth" => array(
-//             "user_name" => $username,
-//             "password" => md5($password),
-//             "version" => "1"
-//         ),
-//         "application_name" => "RestTest",
-//         "name_value_list" => array(),
-//     );
-
-//     $login_result = call("login", $login_parameters, $url);
-
-//     //get session id
-//     $session_id = $login_result->id;
-//     // die(var_dump($session_id));
-//     $fname = $_POST['fname'];
-//     $lname = $_POST['lname'];
-//     $phone_number = $_POST['phone_number'];
-//     $email_address = $_POST['email_address'];
-//     $delivery_address = $_POST['delivery_address'];
-//     $state = $_POST['state'];
-//     $lga = $_POST['lga'];
-//     $note = $_POST['note'];
-
-//     $price = 170995;
-
-//     $amount = $_POST['quantity'] * $price;
-//     $referral = $_POST['referral'];
-
-//     $qty = $_POST['quantity'];
-
-//     $set_entry_parameters = array(
-//         //session id
-//         "session" => $session_id,
-
-//         //The name of the module
-//         "module_name" => "Contacts",
-
-//         //Record attributes
-//         "name_value_list" => array(
-//             array("name" => "first_name", "value" => $fname),
-//             array("name" => "last_name", "value" => $lname),
-//             array("name" => "phone_mobile", "value" => $phone_number),
-//             array("name" => "email1", "value" => $email_address),
-
-//             array("name" => "cookex_4in1_c", "value" => $qty),
-
-//             array("name" => "del_state", "value" => $state),
-
-//             array("name" => "primary_address_city", "value" => $lga),
-
-//             array("name" => "primary_address_street", "value" =>$delivery_address),
-
-//             array("name" => "description", "value" =>$note),
-
-
-
-
-//             array("name" => "total_amount", "value" => $amount),
-//             array("name" => "affiliate_ref", "value" => $referral),
-//             array("name" => "call_direction", "value" => 'Landing Page'),
-//             array("name" => "tv_channels", "value" => 'Landing Page'),
-//             array("name" => "pay_method", "value" => 'Bank Transfer'),
-//             // Pending
-//             array("name" => "payment_status", "value" => 'Pending'),
-//         ),
-//     );
-
-//     $set_entry_result = call("set_entry", $set_entry_parameters, $url);
-//     if ($set_entry_result) {
-//         echo "<script type='text/javascript'>window.top.location='https://shop.shopextv.com/cookex/success.php?cost=".$amount."';</script>";
-//         exit;
-//     }
-// }
-?>
