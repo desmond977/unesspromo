@@ -83,6 +83,15 @@
                     <span data-text-preloader="S" class="letters-loading">
                         S
                     </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        H
+                    </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        u
+                    </span>
+                    <span data-text-preloader="S" class="letters-loading">
+                        B
+                    </span>
 
                 </div>
             </div>
@@ -292,7 +301,7 @@
 
                                     <div class="image__with--text__content">
                                         <h2 class="image__with--text__title mb-18" style="color: #ff9600;">
-                                            Huffmans HM-789 Air Fryer
+                                           ₦105,000 <BR> Huffmans HM-789 Air Fryer
                                         </h2>
                                         <p class="image__with--text__desc mb-25">
                                             The Huffmans HM-789 Air Fryer is a powerful 2400W multifunctional kitchen appliance designed for fast and healthy cooking.
@@ -318,7 +327,7 @@
                                 <div class="col">
                                     <div class="image__with--text__content">
                                         <h2 class="image__with--text__title mb-18" style="color: #ff9600;">
-                                            Huffmans HM-761 Microwave Oven
+                                           ₦165,000 <BR> Huffmans HM-761 Microwave Oven
                                         </h2>
                                         <p class="image__with--text__desc mb-25">
                                             The Huffmans HM-761 Microwave Oven is a compact and reliable kitchen appliance designed for quick and convenient cooking.
@@ -343,7 +352,7 @@
                                 <div class="col">
                                     <div class="image__with--text__content" style="color: #ff9600;">
                                         <h2 class="image__with--text__title mb-18">
-                                            Huffmans HM-2565 Electric Kettle
+                                            ₦45,000 <BR>Huffmans HM-2565 Electric Kettle
                                         </h2>
                                         <p class="image__with--text__desc mb-25">
                                             The Huffmans HM-2565 Electric Kettle is a powerful and convenient kitchen appliance designed for fast water boiling.
@@ -369,7 +378,7 @@
                                 <div class="col">
                                     <div class="image__with--text__content" style="color: #ff9600;">
                                         <h2 class="image__with--text__title mb-18">
-                                            Huffmans HM-716 Electric Pressure Cooker
+                                            ₦100,000 <BR> Huffmans HM-716 Electric Pressure Cooker
                                         </h2>
                                         <p class="image__with--text__desc mb-25">
                                             The Huffmans HM-716 Electric Pressure Cooker is a smart multi-function kitchen appliance designed to make cooking faster,
@@ -770,7 +779,7 @@
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 mb-20">
                                             <div class="checkout__input--list">
-                                                <label class="checkout__input--label mb-5" for="input2">Phone Number
+                                                <label class="checkout__input--label mb-5" for="input2">Phone Number / Whatsapp number 
                                                     <span class="checkout__input--label__star">*</span></label>
                                                 <input class="checkout__input--field border-radius-5"
                                                     placeholder="Phone Number" id="phone_number" type="tel"
@@ -809,6 +818,7 @@
                                                         <option value="Kuje">Kuje</option>
                                                         <option value="Kwali">Kwali</option>
                                                         <option value="Abaji">Abaji</option>
+                                                        <option value="Other">Other</option>
 
                                                     </select>
 
