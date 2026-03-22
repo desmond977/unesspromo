@@ -27282,5 +27282,39 @@ p.product_info {
         text-align: center;
         margin-top: 20px;
     }
+
+    .floating-img{
+  padding-top: 40px;
+}
+}
+
+
+.floating-img{
+    max-width:100%;
+    height:auto;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.floating-img{
+  
+    max-width:100%;
+    animation: floatImage 4s ease-in-out infinite;
+    filter: drop-shadow(0 15px 20px rgba(0,0,0,0.2));
+}
+
+.countdown__item{
+
+  color: rgb(255, 178, 13) !important;
 }
 

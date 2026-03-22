@@ -108,7 +108,7 @@
                                     fill="currentColor" stroke="currentColor" stroke-miterlimit="10"
                                     stroke-width="32" />
                             </svg>
-                            <a href="tel:08104889570">08104889570</a>
+                            <a href="tel:08109804220">08109804220</a>
                         </li>
                         <li class="header__contact--info__list text-white">
                             <svg class="header__contact--info__icon" xmlns="http://www.w3.org/2000/svg" width="20.57"
@@ -260,7 +260,7 @@
 
                         <!-- Slide 4 -->
                         <div class="swiper-slide hero__bg"
-                            style="background-image: url('assets/img/huffman/huffman_multiplefooddesktop.png');">
+                            style="background-image: url('assets/img/huffman/huffmanelectriccookerdesktop.png');">
                         </div>
 
                     </div>
@@ -285,7 +285,7 @@
                             <div class="row row-cols-md-2 row-cols-1 align-items-center">
                                 <div class="col">
                                     <div class="image__with--text__thumbnail">
-                                        <img src="assets/img/huffman/huffmanairfryer.png" alt="airfryer">
+                                        <img src="assets/img/huffman/huffmanairfryernobg.png" alt="airfryer" class="floating-img">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -312,7 +312,7 @@
                             <div class="row row-cols-md-2 row-cols-1 align-items-center">
                                 <div class="col">
                                     <div class="image__with--text__thumbnail">
-                                        <img src="assets/img/huffman/huffmanoven.png" alt="oven / microwave ">
+                                        <img src="assets/img/huffman/huffmanovenobg.png" alt="oven / microwave " class="floating-img">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -337,16 +337,16 @@
                             <div class="row row-cols-md-2 row-cols-1 align-items-center">
                                 <div class="col">
                                     <div class="image__with--text__thumbnail">
-                                        <img src="assets/img/huffman/huffmankettle.png" alt="airfryer durability">
+                                        <img src="assets/img/huffman/huffmankettlenobg.png" alt="airfryer durability" class="floating-img">
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="image__with--text__content" style="color: #ff9600;">
                                         <h2 class="image__with--text__title mb-18">
-                                            HUFFMANs HM-2565 Electric Kettle
+                                            Huffmans HM-2565 Electric Kettle
                                         </h2>
                                         <p class="image__with--text__desc mb-25">
-                                            The HUFFMANs HM-2565 Electric Kettle is a powerful and convenient kitchen appliance designed for fast water boiling.
+                                            The Huffmans HM-2565 Electric Kettle is a powerful and convenient kitchen appliance designed for fast water boiling.
                                             With its large capacity and high-performance heating element, it quickly prepares hot water for tea, coffee, noodles,
                                             and other beverages in just a few minutes.
                                         </p>
@@ -362,8 +362,8 @@
                         <div class="swiper-slide">
                             <div class="row row-cols-md-2 row-cols-1 align-items-center">
                                 <div class="col">
-                                    <div class="image__with--text__thumbnail">
-                                        <img src="assets/img/huffman/huffman_multiplefood.png" alt="airfryer durability">
+                                    <div class="image__with--text__thumbnail floating-img">
+                                        <img src="assets/img/huffman/huffmanelectriccookernobg.png" alt="airfryer durability" class="floating-img">
                                     </div>
                                 </div>
                                 <div class="col">
@@ -386,8 +386,10 @@
 
                     </div>
 
+
                     <!-- Pagination -->
                     <div class="swiper-pagination"></div>
+
                 </div>
             </div>
 
@@ -409,7 +411,7 @@
                                 Payment On Delivery Abuja only!</h2>
                             <div class="about__content--step mb-25">
                                 <ul class="mb-20">
-                                    <li class="about__content--desc__list">Payment On Delivery Abuja only!</li>
+                                    <li class="about__content--desc__list">Same Day Delivery Abuja only!</li>
                                     <li class="about__content--desc__list">ORDER ORIGINAL ONLY FROM UNESSHUB.</li>
                                 </ul>
                                 <p class="about__content--desc style2">Unesshub is A Distributor of The Huffmans
@@ -424,7 +426,8 @@
                     </div>
                     <div class="col">
                         <div class="about__thumbnail">
-                            <iframe width="85%" height="600" src="https://www.youtube.com/embed/L2NoKZ78yKA"
+                            <iframe width="85%" height="600" src="https://www.youtube.com/embed/nCgMkajKh4M"
+                                
                                 title="YouTube Shorts video" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen>
@@ -444,11 +447,11 @@
 
         <!-- Start product details section -->
         <form action="" method="">
-            <section>
+            <!-- <section> -->
                 <section class="product__details--section section--padding" id="buy" style="background: #eeeeee4a;">
                     <div class="container">
                         <div class="section__heading text-center mb-50">
-                            <h2 class="section__heading--maintitle text__secondary mb-10">4 HOT TELLING PROMO OFFER </h2>
+                            <h2 class="section__heading--maintitle text__secondary mb-10"> HOT PROMO OFFERs </h2>
                             <p class="section__heading--desc">Best Kitchen Deals in Abuja Today,
                                 Payment On Delivery Abuja only! .</p>
                         </div>
@@ -482,8 +485,21 @@
                                                 <div class="swiper-slide">
                                                     <div class="product__media--nav__items">
                                                         <img class="product__media--nav__items--img"
-                                                            src="assets/img/huffman/huffman_multiplefood.png"
+                                                            src="assets/img/huffman/huffmanelectriccooker.png"
                                                             alt="product-nav-img">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="product__media--preview__items">
+                                                        <img class="product__media--preview__items--img"
+                                                            src="assets/img/huffman/4in1promo.png">
+                                                    </div>
+                                                </div>
+
+                                                <div class="swiper-slide">
+                                                    <div class="product__media--preview__items">
+                                                        <img class="product__media--preview__items--img"
+                                                            src="assets/img/huffman/3in1promo.png">
                                                     </div>
                                                 </div>
                                             </div>
@@ -573,15 +589,65 @@
                                                         <div class="product__media--preview__items">
                                                             <a class="product__media--preview__items--link glightbox"
                                                                 data-gallery="product-media-preview"
-                                                                href="assets/img/huffman/huffman_multiplefood.png"><img
+                                                                href="assets/img/huffman/huffmanelectriccooker.png"><img
                                                                     class="product__media--preview__items--img"
-                                                                    src="assets/img/huffman/huffman_multiplefood.png"></a>
+                                                                    src="assets/img/huffman/huffmanelectriccooker.png"></a>
                                                             <div class="product__badge">
                                                                 <span class="product__badge--items sale">New</span>
                                                             </div>
                                                             <div class="product__media--view__icon">
                                                                 <a class="product__media--view__icon--link glightbox"
-                                                                    href="assets/img/huffman/huffman_multiplefood.png"
+                                                                    href="assets/img/huffman/huffmanelectriccooker.png"
+                                                                    data-gallery="product-media-preview">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                        width="18" height="18" viewBox="0 0 18 18">
+                                                                        <image width="18" height="18"
+                                                                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAAVhJREFUOE/llLtKA0EUhjdY+BD6ABaW3tIYTWEhiKKCCGIgqGhCgqXvoQFRQdBGERQvUaJFgilVRHwF8RWCWqzfD7OyjrPZ7R342HP2nP1n58yZSfm+/+F53ivUoAseoALtxirBIXiHLPSlEHrBaMGyEYzR+BXuwduHTgltYNzBKSxAM6HSAHknMAf9EqpjjEIGzmAK7mPE0sSrRkQ/cSWhIkZQE4kdwzxoAteQiCbMgeqqsSIhO3nEJK7xPLKC0/h7oT/5CbuEFByDCShDeKZNfC3lwp49SihiVdGv/6GQdm4WSlaxt/AvQ9vedteCZlsn68Aqr/pLPfenaVVsHcBt80HQbIv4txF75GravIQafKClDMKNq9kcgspXd0+CjlM1OLTXZu1LPNVwScYwSYcwA2kJPWJ8QQGekyiEcnqxd6BDQp8YupPOoRueYDdGME9c18gbjMv+BiJYeHc6xpjnAAAAAElFTkSuQmCC" />
+                                                                    </svg>
+                                                                    <span class="visually-hidden">Media Gallery</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="product__media--preview__items">
+                                                            <a class="product__media--preview__items--link glightbox"
+                                                                data-gallery="product-media-preview"
+                                                                href="assets/img/huffman/3in1promo.png"><img
+                                                                    class="product__media--preview__items--img"
+                                                                    src="assets/img/huffman/3in1promo.png"></a>
+                                                            <div class="product__badge">
+                                                                <span class="product__badge--items sale">New</span>
+                                                            </div>
+                                                            <div class="product__media--view__icon">
+                                                                <a class="product__media--view__icon--link glightbox"
+                                                                    href="assets/img/huffman/3in1promo.png"
+                                                                    data-gallery="product-media-preview">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                        width="18" height="18" viewBox="0 0 18 18">
+                                                                        <image width="18" height="18"
+                                                                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAAVhJREFUOE/llLtKA0EUhjdY+BD6ABaW3tIYTWEhiKKCCGIgqGhCgqXvoQFRQdBGERQvUaJFgilVRHwF8RWCWqzfD7OyjrPZ7R342HP2nP1n58yZSfm+/+F53ivUoAseoALtxirBIXiHLPSlEHrBaMGyEYzR+BXuwduHTgltYNzBKSxAM6HSAHknMAf9EqpjjEIGzmAK7mPE0sSrRkQ/cSWhIkZQE4kdwzxoAteQiCbMgeqqsSIhO3nEJK7xPLKC0/h7oT/5CbuEFByDCShDeKZNfC3lwp49SihiVdGv/6GQdm4WSlaxt/AvQ9vedteCZlsn68Aqr/pLPfenaVVsHcBt80HQbIv4txF75GravIQafKClDMKNq9kcgspXd0+CjlM1OLTXZu1LPNVwScYwSYcwA2kJPWJ8QQGekyiEcnqxd6BDQp8YupPOoRueYDdGME9c18gbjMv+BiJYeHc6xpjnAAAAAElFTkSuQmCC" />
+                                                                    </svg>
+                                                                    <span class="visually-hidden">Media Gallery</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="product__media--preview__items">
+                                                            <a class="product__media--preview__items--link glightbox"
+                                                                data-gallery="product-media-preview"
+                                                                href="assets/img/huffman/4in1promo.png"><img
+                                                                    class="product__media--preview__items--img"
+                                                                    src="assets/img/huffman/4in1promo.png"></a>
+                                                            <div class="product__badge">
+                                                                <span class="product__badge--items sale">New</span>
+                                                            </div>
+                                                            <div class="product__media--view__icon">
+                                                                <a class="product__media--view__icon--link glightbox"
+                                                                    href="assets/img/huffman/4in1promo.png"
                                                                     data-gallery="product-media-preview">
                                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                                         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -605,7 +671,7 @@
                                 <div class="col">
                                     <div class="product__details--info">
                                         <h3 class="product__details--info__title mb-15" id="productTitle">
-                                            4 Hot selling products
+                                            4 Best Selling Products
                                         </h3>
 
 
@@ -618,7 +684,7 @@
                                         <div class="product__variant">
                                             <div class="product__variant--list mb-15">
                                                 <!-- <fieldset class="variant__input--fieldset"> -->
-                                                <legend class="product__variant--title mb-8">Color :
+                                                <legend class="product__variant--title mb-8">Color :>
                                                     <div class="checkout__input">
                                                         <select name="color" id="colorSelect"></select>
 
@@ -628,7 +694,7 @@
 
                                                         <!-- <fieldset class="variant__input--fieldset"> -->
 
-                                                        <legend class="product__variant--title mb-8">Quantity :
+                                                        <legend class="product__variant--title mb-8">Quantity :>
                                                             <div class="checkout__input">
                                                                 <select name="quantity" id="quantityselect"></select>
 
@@ -810,21 +876,33 @@
         <section class="deals__section deals__section--bg3 section--padding pt-0" id="contact">
             <div class="container">
                 <div class="row align-items-center">
+
+                    <!-- LEFT TEXT -->
                     <div class="col-lg-6 col-md-7 col-sm-order">
                         <div class="deals__content">
-                            <h2 class="deals__content--title text-red mb-20" style="color: #f44336; padding-top: 50px">Talk to Us:
-                                08104889570</h2>
-                            <h2 class="deals__content--title text-white mb-20">UNESSHUB is the
-                                Distributor of Authentic Huffmans Kitchen Appliances.
-                                <br>Enjoy Payment on Delivery within Abuja!
-                                <br>ORDER ORIGINAL ONLY FROM UNESSHUB.
+                            <h2 class="deals__content--title text-red mb-20" style="color: #f44336; padding-top: 50px">
+                                Talk to Us: 08109804220
                             </h2>
 
-                            <div class="deals__countdown d-flex mb-50" data-countdown="May 02 , 2026 00:00:00"></div>
+                            <h2 class="deals__content--title text-white mb-20">
+                                UNESSHUB is the Distributor of Authentic Huffmans Kitchen Appliances.
+                                <br>Enjoy Payment on Delivery within Abuja!
+                                <br>Same Day Delivery Abuja Only.!
+                            </h2>
+
+                            <div class="deals__countdown d-flex mb-50" data-countdown="May 02 , 2026 00:00:00" style="color: #ff9600;"></div>
+
                             <a class="deals__content--btn primary__btn" href="#buy">Buy Now</a>
                         </div>
                     </div>
-                    <!--  -->
+
+                    <!-- RIGHT IMAGE -->
+                    <div class="col-lg-6 col-md-5">
+                        <div class="deals__image text-center">
+                            <img src="assets/img/huffman/4in1promo_nobg.png" class="floating-img" alt="Promo Offer">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

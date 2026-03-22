@@ -932,17 +932,19 @@ const newsletterPopup = function () {
 newsletterPopup();
 
 document.addEventListener('DOMContentLoaded', function () {
-    new Swiper('.image__with--text__slider', {
+
+    const imageSlider = new Swiper('.image__with--text__slider', {
         loop: true,
+
         autoplay: {
             delay: 7000,
-            disableOnInteraction: false,
+            disableOnInteraction: false
         },
-        // pagination: {
-        //     el: '.swiper-pagination',
-        //     clickable: true,
-        // },
+
+        
+
     });
+
 });
 
 
@@ -1006,50 +1008,86 @@ const products = [
             "Fast cooking for rice, beans, soups, meat, and stews"
             
         ]
-    }
+    },
+    {
+    title: "Huffman 3-in-1 Kitchen Combo",
+    price: "244,900",
+    oldPrice: "₦350,000",
+    colors: ["All Avaliable color"],
+    quantity: ["1", "2", "3", "4"],
+    info: [
+        "Air Fryer + Electric Kettle ",
+        "Electric Pressure Cooker",
+        "Perfect Family Kitchen Bundle",
+        "Save More"
+    ]
+},
+{
+    title: "Huffman 4-in-1 Kitchen Combo",
+    price: "₦329,950",
+    oldPrice: "₦380,000",
+    colors: ["All Avaliable color"],
+    quantity: ["1", "2", "3", "4"],
+    info: [
+        "Air Fryer + Electric Oven",
+        "Electric Kettle Included",
+        "Electric Pressure Cooker",
+        "Full Kitchen Starter Pack",
+        "Best Deal!!"
+    ]
+},
+
 ];
 
 
 function updateProduct(index) {
-    const product = products[index];
 
-    // Title
+    const product = products[index];
+    if(!product) return;
+
+    // TITLE
     document.getElementById("productTitle").innerText = product.title;
 
-    // Price
+    // PRICE
     document.querySelector("#productPrice .current__price").innerText = product.price;
     document.querySelector("#productPrice .old__price").innerText = product.oldPrice;
 
-    // Colors
+    // COLOR SELECT
     const colorSelect = document.getElementById("colorSelect");
     colorSelect.innerHTML = "";
-    product.colors.forEach(c => {
-        colorSelect.innerHTML += `<option value="${c}">${c}</option>`;
+    product.colors.forEach(color => {
+        colorSelect.innerHTML += `<option value="${color}">${color}</option>`;
     });
 
-    // Quantity
-    const quantityselect = document.getElementById("quantityselect");
-    quantityselect.innerHTML = "";
-    product.quantity.forEach(c => {
-        quantityselect.innerHTML += `<option value="${c}">${c}</option>`;
+    // QUANTITY SELECT
+    const quantitySelect = document.getElementById("quantityselect");
+    quantitySelect.innerHTML = "";
+    product.quantity.forEach(q => {
+        quantitySelect.innerHTML += `<option value="${q}">${q}</option>`;
     });
 
-    
-
-    // Product Info
+    // PRODUCT INFO
     const infoBox = document.getElementById("productInfo");
+
     infoBox.innerHTML = `
         <p class="product__details--info__meta--list"><strong>Product Info:</strong></p>
-        ${product.info.map(i => `<p class="product_info">${i}</p>`).join("")}
+        ${product.info.map(item => `<p class="product_info">${item}</p>`).join("")}
     `;
 }
 
 // Initial load
 updateProduct(0);
 
-const productPreviewSwiper = document.querySelector('.product__media--preview')?.swiper;
+const productSwiper = document.querySelector('.product__media--preview').swiper;
 
-// Swiper hook
-productPreviewSwiper.on("slideChange", function () {
-    updateProduct(this.activeIndex);
-});
+if(productSwiper){
+
+    // Initial load
+    updateProduct(productSwiper.realIndex);
+
+    // When slide changes
+    productSwiper.on('slideChange', function () {
+        updateProduct(productSwiper.realIndex);
+    });
+
+}
